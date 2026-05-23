@@ -1,17 +1,45 @@
-# project_april_20
+# 🌤️ Get Weather App
 
-A new Flutter project.
+A Flutter app that fetches real-time weather information for any city using the Open-Meteo API.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- Search weather by city name
+- Displays current temperature and apparent temperature
+- Works with a large database of cities via CSV lookup
+- Uses Open-Meteo API (free, no API key required)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚠️ Known Issues
+
+- City name must be typed exactly as it appears in the database
+- UI is minimal and still in progress
+
+---
+
+## 🛠️ Built With
+
+- Flutter & Dart
+- http
+- csv
+- Open-Meteo API
+
+---
+
+## ▶️ How to Run
+
+```bash
+git clone https://github.com/dhanraj9684/Get_Weather_App.git
+cd your-repo-name
+flutter pub get
+flutter run
+```
+
+---
+
+## 👨‍💻 Developer
+
+Made by Dhanraj — Information Science Student
